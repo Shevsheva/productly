@@ -1,0 +1,33 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: inherit;
+    border: 0;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    max-width: 1440px;
+}
+
+body {
+    font: 1.6em poppins;
+    margin: 15px 120px 15px 120px;
+    overflow-x: hidden;
+    max-width: 1440px;
+}
+
+.main__section {
+    display: flex;
+    align-items: center;
+    margin-left: 145px;
+    margin-bottom: 131px;
+}
+
+@import "components/nav";
+@import "components/main";
+@import "components/title";
+@import "components/footer"
