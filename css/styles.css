@@ -88,7 +88,6 @@ h1 {
   word-break: break-all;
   padding: 20px 125px 20px 0;
 }
-
 .main__btn {
   height: 50px;
   width: 180px;
@@ -104,21 +103,14 @@ h1 {
   text-align: center;
   padding: 0 200px;
 }
-
 .features__cards {
   display: flex;
   align-items: center;
   margin: 0 80px 0 80px;
 }
-
 .features__items {
   padding: 45px;
 }
-
-h4 {
-  padding: 16px 0;
-}
-
 .features__link {
   width: 15.765%;
   min-width: 17.5rem;
@@ -130,7 +122,6 @@ h4 {
   display: flex;
   place-content: center;
 }
-
 .features__btn {
   width: 175px;
   height: 53px;
@@ -140,13 +131,16 @@ h4 {
   border: none;
   align-items: flex-start;
 }
-
 .features__background {
   margin-top: -250px;
   width: 100%;
   position: relative;
   z-index: -1;
   left: 0;
+}
+
+h4 {
+  padding: 16px 0;
 }
 
 .title {
@@ -259,6 +253,7 @@ h4 {
 .footer__list-heading {
   font-family: Lato;
   font-size: 2rem;
+  font-weight: bolder;
   color: #2f281e;
 }
 .footer__list-item {
@@ -295,7 +290,6 @@ h4 {
   color: white;
   font-size: 1.6rem;
   font-weight: bold;
-  color: #ffffff;
   height: 4.7rem;
   width: 47.38%;
   background: #ff9900;
